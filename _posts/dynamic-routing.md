@@ -10,7 +10,7 @@ ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
 ---
 
-Dynamic routing allows you to create pages that can change based on the URL, making your application more flexible and user-friendly. This feature is particularly useful for applications that require user-generated content or dynamic data.
+Dynamic routing allows you to create pages that can change based on the URL, making your application more flexible and user-friendly. This feature is particularly useful for applications that require user-generated content or dynamic data. [Here's a link to the Next.js documentation](https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes).
 
 Dynamic routing in Next.js is achieved by using the file system as the main API for routing. By creating a file structure that reflects your desired routes, you can easily set up dynamic routes using square brackets. For example, if you want to create a blog post page that can handle different slugs, you would create a file named `[slug].js` inside the `pages/posts` directory.
 
