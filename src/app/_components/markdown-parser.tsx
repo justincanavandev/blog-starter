@@ -1,11 +1,7 @@
 import Markdown from "markdown-to-jsx";
 import { A, H2, P } from "./elements";
 
-export const MarkdownParser = ({
-  children,
-}: {
-  children: string;
-}) => {
+export const MarkdownParser = ({ children }: { children: string }) => {
   const props = {
     children,
   };
@@ -24,8 +20,8 @@ export const MarkdownParser = ({
           },
           a: {
             component: A,
-            props
-          }
+            props,
+          },
         },
       }}
     >
